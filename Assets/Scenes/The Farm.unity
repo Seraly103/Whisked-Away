@@ -151,6 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TileManager
   interactableTilemap: {fileID: 782929435}
   hiddenTile: {fileID: 11400000, guid: 2a5ac60b1c27ed347a67ba1fe03bc176, type: 2}
+  interactedTile: {fileID: 11400000, guid: dd6d7c1dc8ccb1447abaac339d973625, type: 2}
 --- !u!4 &218223517
 Transform:
   m_ObjectHideFlags: 0
@@ -18665,7 +18666,7 @@ Tilemap:
   - first: {x: 4, y: -9, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 29
+      m_TileIndex: 254
       m_TileSpriteIndex: 142
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
@@ -33792,7 +33793,7 @@ Tilemap:
     m_RefCount: 0
     m_Data: {fileID: 11400000, guid: 506b2a35ca33788429ac8f8c64e23f2d, type: 2}
   - serializedVersion: 2
-    m_RefCount: 1
+    m_RefCount: 0
     m_Data: {fileID: 11400000, guid: ce3da534b6c7496438112d04a5a3a59e, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
@@ -34467,7 +34468,7 @@ Tilemap:
     m_RefCount: 0
     m_Data: {fileID: 11400000, guid: eed07eaeb81ee5f43951129bf3bab0e8, type: 2}
   - serializedVersion: 2
-    m_RefCount: 0
+    m_RefCount: 1
     m_Data: {fileID: 11400000, guid: c6abc997bc0a8af4798821b2b661dec7, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
@@ -35486,7 +35487,7 @@ Tilemap:
     m_Data: {fileID: 591139328, guid: 67f6e722df78b164db7ad0e35c5fa1ad, type: 3}
   - serializedVersion: 2
     m_RefCount: 1
-    m_Data: {fileID: -1117126085, guid: 67f6e722df78b164db7ad0e35c5fa1ad, type: 3}
+    m_Data: {fileID: -1646811848, guid: 67f6e722df78b164db7ad0e35c5fa1ad, type: 3}
   - serializedVersion: 2
     m_RefCount: 2
     m_Data: {fileID: 1437986739, guid: 67f6e722df78b164db7ad0e35c5fa1ad, type: 3}

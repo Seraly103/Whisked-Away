@@ -31,11 +31,13 @@ public class PlayerController : MonoBehaviour
             if (tileManager.IsTileInteractable(transform.position))
             {
                 Debug.Log("Im on a interactable tile!");
+                tileManager.SetInteracted(transform.position);
 
             }
             else
             {
                 Debug.Log("Im not on a interactable tile!");
+                
             }
         }
     }
