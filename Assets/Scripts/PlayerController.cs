@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
+    [SerializeField] private TileManager tileManager;
     private Rigidbody2D rb;
     private Vector2 movementInput;
 
@@ -12,35 +13,29 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    
+    void Update()
+    {
+        rb.linearVelocity = movementInput * speed;
+        
+    }
 
     public void Move(InputAction.CallbackContext context)
     {
         movementInput = context.ReadValue<Vector2>();
     }
 
-    private void Update()
+    public void Interact(InputAction.CallbackContext context)
     {
-        if (rb == null)
+        if (context.performed)
         {
-            rb = GetComponent<Rigidbody2D>();
-        }
-
-        if (rb != null)
-        {
-            rb.linearVelocity = movementInput * speed;
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            GameManager gameManager = GameManager.Instance;
-
-            if (gameManager != null && gameManager.tileManager != null)
+            if (tileManager.IsTileInteractable(transform.position))
             {
-                if (gameManager.tileManager.IsInteractableTile(transform.position))
-                {
-                    Debug.Log("Player is on an interactable tile!");
-                }
+                Debug.Log("Im on a interactable tile!");
+
+            }
+            else
+            {
+                Debug.Log("Im not on a interactable tile!");
             }
         }
     }

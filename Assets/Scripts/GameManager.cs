@@ -8,22 +8,6 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        Instance = this;
-
-        if (tileManager == null)
-        {
-            tileManager = GetComponent<TileManager>();
-        }
-
-        if (tileManager == null)
-        {
-            tileManager = FindObjectOfType<TileManager>();
-        }
+        tileManager = GetComponent<TileManager>();
     }
 }

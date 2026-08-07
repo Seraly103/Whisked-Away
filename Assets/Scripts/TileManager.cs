@@ -7,27 +7,23 @@ public class TileManager : MonoBehaviour
 {
    
    [SerializeField] private Tilemap interactableTilemap;
-
-   [SerializeField] private Tile hiddenInteractableTilemap;
+   [SerializeField] private Tile hiddenTile;
 
    void Start()
-    {
-        foreach(var position in interactableTilemap.cellBounds.allPositionsWithin)
-        {
-            interactableTilemap.SetTile(position, hiddenInteractableTilemap);
-        }
-    }
+   {
+       foreach (var pos in interactableTilemap.cellBounds.allPositionsWithin)
+       {
+           if (interactableTilemap.HasTile(pos))
+           {
+               interactableTilemap.SetTile(pos, hiddenTile);
+           }
+       }
+   }
 
-    public bool IsInteractableTile(Vector3 worldPosition)
-    {
-        TileBase tile = interactableTilemap.GetTile(interactableTilemap.WorldToCell(worldPosition));
-        if(tile != null)
-        {
-            if(tile.name =="InteractableTile")
-            {
-                return true;
-            }
-        }
-        return false;
-    }
+   public bool IsTileInteractable(Vector3 worldPosition)
+   {
+       Vector3Int cellPosition = interactableTilemap.WorldToCell(worldPosition);
+       return interactableTilemap.HasTile(cellPosition);
+   }
+
 }

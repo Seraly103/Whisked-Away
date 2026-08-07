@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TileManager
   interactableTilemap: {fileID: 782929435}
-  hiddenInteractableTilemap: {fileID: 11400000, guid: 2a5ac60b1c27ed347a67ba1fe03bc176, type: 2}
+  hiddenTile: {fileID: 11400000, guid: 2a5ac60b1c27ed347a67ba1fe03bc176, type: 2}
 --- !u!4 &218223517
 Transform:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1063946ec3bfd284e9a3aa7bc8240929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  tileManager: {fileID: 0}
+  tileManager: {fileID: 218223516}
 --- !u!1 &782929432
 GameObject:
   m_ObjectHideFlags: 0
@@ -5312,6 +5312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   speed: 5
+  tileManager: {fileID: 218223516}
 --- !u!114 &1101021781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5358,7 +5359,19 @@ MonoBehaviour:
     m_ActionId: 6acde975-3f0e-4cf0-b796-bc1484ed0b49
     m_ActionName: 'Player/Look[/Mouse/delta,/Touchscreen/delta,/Pen/delta]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 76fb0340-3fdd-4569-ba2c-11a60008dbf1
     m_ActionName: 'Player/Fire[/Mouse/leftButton,/Touchscreen/primaryTouch/tap]'
   - m_PersistentCalls:
@@ -5401,6 +5414,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9120e267-7688-43a1-b9ff-5c7697b750eb
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1101021780}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 6cbe9a6e-4dfd-4af6-afe6-0be3cfce3117
+    m_ActionName: 'Player/Interact[/Keyboard/space]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
