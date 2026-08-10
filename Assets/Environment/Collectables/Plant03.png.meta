@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 0415b7c855bbbbc4a98b3d047a16fc8a
+guid: b228e069be44417459c7647385712aa0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7365160602842359770
-    second: Plant04_0
-  - first:
-      213: 3687353429656212675
-    second: Plant04_1
+      213: -5113962004292477710
+    second: Plant03_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,7 +152,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plant04_0
+      name: Plant03_0
       rect:
         serializedVersion: 2
         x: 0
@@ -170,14 +167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad7ee16cb8e463660800000000000000
-      internalID: 7365160602842359770
+      spriteID: 2fc5d4be6ae8709b0800000000000000
+      internalID: -5113962004292477710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant04_1
+      name: Plant03_1
       rect:
         serializedVersion: 2
         x: 16
@@ -190,10 +187,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3c41af7686c1c2330800000000000000
-      internalID: 3687353429656212675
+      spriteID: aa63aaa5a622b4c4cbcb21a2c1852026
+      internalID: 2125108888
       vertices: []
       indices: 
       edges: []
@@ -202,7 +199,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5f14a28dbdfe78342aab2204a4a05d1e
+    spriteID: 0954b486105dbfc41b890f78efbc03d4
     internalID: 0
     vertices: []
     indices: 
@@ -214,8 +211,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Plant04_0: 7365160602842359770
-      Plant04_1: 3687353429656212675
+      Plant03_0: -5113962004292477710
+      Plant03_1: 2125108888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

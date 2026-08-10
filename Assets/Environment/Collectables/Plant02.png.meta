@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 0415b7c855bbbbc4a98b3d047a16fc8a
+guid: 2cd605632da0ad647bbd1d2678bee6f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7365160602842359770
-    second: Plant04_0
+      213: 1081625467298406034
+    second: Plant02_0
   - first:
-      213: 3687353429656212675
-    second: Plant04_1
+      213: -6642439519698421608
+    second: Plant02_1
+  - first:
+      213: -2172429334264545033
+    second: Plant02_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,7 +158,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plant04_0
+      name: Plant02_0
       rect:
         serializedVersion: 2
         x: 0
@@ -170,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad7ee16cb8e463660800000000000000
-      internalID: 7365160602842359770
+      spriteID: 29e565eb1a4b20f00800000000000000
+      internalID: 1081625467298406034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant04_1
+      name: Plant02_1
       rect:
         serializedVersion: 2
         x: 16
@@ -192,8 +195,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c41af7686c1c2330800000000000000
-      internalID: 3687353429656212675
+      spriteID: 898fb52337051d3a0800000000000000
+      internalID: -6642439519698421608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Plant02_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0068fc70bf9d1e0800000000000000
+      internalID: -2172429334264545033
       vertices: []
       indices: 
       edges: []
@@ -202,7 +227,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5f14a28dbdfe78342aab2204a4a05d1e
+    spriteID: 3e501a4749417494aa69947d16a02178
     internalID: 0
     vertices: []
     indices: 
@@ -214,8 +239,9 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Plant04_0: 7365160602842359770
-      Plant04_1: 3687353429656212675
+      Plant02_0: 1081625467298406034
+      Plant02_1: -6642439519698421608
+      Plant02_2: -2172429334264545033
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

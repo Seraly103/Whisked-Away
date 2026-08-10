@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 0415b7c855bbbbc4a98b3d047a16fc8a
+guid: 7512c24a399814c468c585c733549913
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7365160602842359770
-    second: Plant04_0
+      213: 1887494081247492234
+    second: Rocks_0
   - first:
-      213: 3687353429656212675
-    second: Plant04_1
+      213: 2007986136508003152
+    second: Rocks_1
+  - first:
+      213: -5091828049805951605
+    second: Rocks_2
+  - first:
+      213: -4209556597541047147
+    second: Rocks_3
+  - first:
+      213: -5342935890121459157
+    second: Rocks_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,13 +164,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Plant04_0
+      name: Rocks_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
+        x: 49
+        y: 18
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad7ee16cb8e463660800000000000000
-      internalID: 7365160602842359770
+      spriteID: b8d32f9cd513659b0800000000000000
+      internalID: -5091828049805951605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Plant04_1
+      name: Rocks_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
+        x: 83
+        y: 19
+        width: 9
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,8 +201,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c41af7686c1c2330800000000000000
-      internalID: 3687353429656212675
+      spriteID: 594f9a5e396a495c0800000000000000
+      internalID: -4209556597541047147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocks_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2aff93bd141ad5b0800000000000000
+      internalID: -5342935890121459157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocks_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395ae38267975c4488cb329fec662400
+      internalID: 1318478223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocks_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92c53be458351a418930957c6674403
+      internalID: -1519205180
       vertices: []
       indices: 
       edges: []
@@ -202,7 +277,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5f14a28dbdfe78342aab2204a4a05d1e
+    spriteID: 9e3fcb53f4a5c3c4495bea4d48e12926
     internalID: 0
     vertices: []
     indices: 
@@ -214,8 +289,16 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Plant04_0: 7365160602842359770
-      Plant04_1: 3687353429656212675
+      Rocks_0: 1887494081247492234
+      Rocks_1: 2007986136508003152
+      Rocks_2: -5091828049805951605
+      Rocks_3: -4209556597541047147
+      Rocks_4: -5342935890121459157
+      Rocks_5: 1318478223
+      Rocks_6: 1281420198
+      Rocks_7: -1802503200
+      Rocks_8: -1519205180
+      Rocks_9: -229662688
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

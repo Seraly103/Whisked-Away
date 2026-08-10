@@ -53,6 +53,9 @@ TagManager:
   - name: Walk In Front
     uniqueID: 829278909
     locked: 0
+  - name: collectables
+    uniqueID: 3263257473
+    locked: 0
   - name: Secret Option
     uniqueID: 473367883
     locked: 0

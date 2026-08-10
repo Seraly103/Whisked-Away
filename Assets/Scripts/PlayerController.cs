@@ -31,13 +31,26 @@ public class PlayerController : MonoBehaviour
             if (tileManager.IsTileInteractable(transform.position))
             {
                 Debug.Log("Im on a interactable tile!");
-                tileManager.SetInteracted(transform.position);
-
+                tileManager.SetTilledTile(transform.position);
             }
             else
             {
                 Debug.Log("Im not on a interactable tile!");
-                
+            }
+
+            Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 1f);
+
+            foreach (Collider2D hit in hits)
+            {
+                CollectableManager collectable = hit.GetComponent<CollectableManager>();
+
+                if (collectable != null)
+                {
+                    Debug.Log("Found collectable: " + hit.gameObject.name);
+
+                    collectable.Collect();
+                    break;
+                }
             }
         }
     }

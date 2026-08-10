@@ -8,8 +8,9 @@ public class TileManager : MonoBehaviour
    
    [SerializeField] private Tilemap interactableTilemap;
    [SerializeField] private Tile hiddenTile;
-   [SerializeField] private Tile interactedTile;
-
+   [SerializeField] private Tile hoeTile;
+   [SerializeField] private Tile waterTile;
+   [SerializeField] private Tile seedTile;
    void Start()
    {
        foreach (var pos in interactableTilemap.cellBounds.allPositionsWithin)
@@ -27,10 +28,16 @@ public class TileManager : MonoBehaviour
        return interactableTilemap.HasTile(cellPosition);
    }
 
-   public void SetInteracted (Vector3 worldPosition)
+   public void SetTilledTile (Vector3 worldPosition)
    {
        Vector3Int cellPosition = interactableTilemap.WorldToCell(worldPosition);
-       interactableTilemap.SetTile(cellPosition, interactedTile);
+       interactableTilemap.SetTile(cellPosition, hoeTile);
    }
 
+   public void SetWaterTile (Vector3 worldPosition)
+   {
+       Vector3Int cellPosition = interactableTilemap.WorldToCell(worldPosition);
+       interactableTilemap.SetTile(cellPosition, waterTile);
+   }
+    
 }
