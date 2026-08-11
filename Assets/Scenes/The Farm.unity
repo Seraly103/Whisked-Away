@@ -19477,6 +19477,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 6cbe9a6e-4dfd-4af6-afe6-0be3cfce3117
     m_ActionName: 'Player/Interact[/Keyboard/space]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 460104220}
+        m_TargetAssemblyTypeName: IventoryUI, Assembly-CSharp
+        m_MethodName: ToggleInventoryUI
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ac488b8f-b922-473f-b767-2a5b15ead30f
+    m_ActionName: Player/Settings
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

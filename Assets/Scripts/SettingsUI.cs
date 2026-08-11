@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.InputSystem;
 
 public class IventoryUI : MonoBehaviour
 {
@@ -12,11 +13,9 @@ public class IventoryUI : MonoBehaviour
         SetUp();
     }
 
-    
-
-    void Update()
+    public void ToggleInventory(InputAction.CallbackContext context)
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (context.performed)
         {
             ToggleInventoryUI();
         }
@@ -36,6 +35,10 @@ public class IventoryUI : MonoBehaviour
         Debug.Log("Found " + slots.Count + " inventory slots!");
     }
 
+
+   
+
+
     public void ToggleInventoryUI()
     {
         if (!inventoryPanel.activeSelf)
@@ -48,6 +51,8 @@ public class IventoryUI : MonoBehaviour
             inventoryPanel.SetActive(false);
         }
     }
+
+    
 
     public void RefreshInventoryUI()
     {
