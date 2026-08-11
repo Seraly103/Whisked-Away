@@ -16,6 +16,9 @@ public class SlotUI : MonoBehaviour,
     private Canvas canvas;
     private Transform originalParent;
 
+    [SerializeField] private GameObject highlightOne;
+    [SerializeField] private GameObject highlightTwo;
+
     void Awake()
     {
         canvas = GetComponentInParent<Canvas>();
@@ -86,5 +89,11 @@ public class SlotUI : MonoBehaviour,
             draggedSlot.slotIndex,
             slotIndex
         );
+    }
+
+    public void SetSelected(bool selected)
+    {
+        highlightOne.SetActive(selected);
+        highlightTwo.SetActive(selected);
     }
 }
