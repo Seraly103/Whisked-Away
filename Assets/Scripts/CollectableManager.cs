@@ -2,10 +2,21 @@ using UnityEngine;
 
 public class CollectableManager : MonoBehaviour
 {
+    [SerializeField] private ItemData item;
+    [SerializeField] private int amount = 1;
+
+
     public void Collect()
     {
-        Debug.Log(gameObject.name + " collected!");
+
+        
+        InventoryManager.Instance.AddItem(item, amount);
+
+        Debug.Log(amount + " " + item.itemName + " collected!");
 
         Destroy(gameObject);
     }
+
+    
+    
 }

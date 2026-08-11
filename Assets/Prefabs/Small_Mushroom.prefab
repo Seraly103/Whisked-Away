@@ -152,3 +152,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21af9c0cbafd831468ed418a5b28220b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectableManager
+  item: {fileID: 11400000, guid: 3c9a17d5ed9afdc45b8e751bd397733c, type: 2}
+  amount: 1

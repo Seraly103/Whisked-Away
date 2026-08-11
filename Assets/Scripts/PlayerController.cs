@@ -30,12 +30,12 @@ public class PlayerController : MonoBehaviour
         {
             if (tileManager.IsTileInteractable(transform.position))
             {
-                Debug.Log("Im on a interactable tile!");
+                Debug.Log("Im on a ho tile!");
                 tileManager.SetTilledTile(transform.position);
             }
             else
             {
-                Debug.Log("Im not on a interactable tile!");
+                Debug.Log("Im not on a ho tile!");
             }
 
             Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 1f);
