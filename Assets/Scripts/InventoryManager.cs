@@ -3,6 +3,8 @@ using System.Collections.Generic;
 public class InventoryManager : MonoBehaviour
 {
     public static InventoryManager Instance;
+    [SerializeField] private int inventorySize = 80;
+
     public List<InventorySlot> inventory = new List<InventorySlot>();
 
     void Awake()
@@ -14,6 +16,12 @@ public class InventoryManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
+        }
+
+        for(int i = 0; i < inventorySize; i++)
+        {
+            inventory.Add(new InventorySlot());
         }
     }
 
@@ -30,11 +38,33 @@ public class InventoryManager : MonoBehaviour
             }
         }
 
-        inventory.Add(new InventorySlot(item, amount));
+        foreach (InventorySlot slot in inventory)
+        {
+            if (slot.item == null)
+            {
+                slot.item = item;
+                slot.amount = amount;
+
+                Debug.Log(item.itemName + " added!");
+                return;
+            }
+        }
+
+        Debug.Log("Inventory full!");
 
         Debug.Log(item.itemName + " x" + amount);
     }
 
     
+    public void SwapItems(int firstIndex, int secondIndex)
+    {
+        
+        
+        InventorySlot temp = inventory[firstIndex];
 
+        inventory[firstIndex] = inventory[secondIndex];
+        inventory[secondIndex] = temp;
+
+        FindFirstObjectByType<IventoryUI>().RefreshInventoryUI();
+    }
 }

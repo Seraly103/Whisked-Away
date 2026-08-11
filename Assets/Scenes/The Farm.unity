@@ -368,10 +368,10 @@ RectTransform:
   - {fileID: 833950729}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &12819304
 MonoBehaviour:
@@ -387,6 +387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1581845377}
   amountText: {fileID: 833950730}
+  slotIndex: 0
 --- !u!114 &12819305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,10 +461,10 @@ RectTransform:
   - {fileID: 1751555181}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &24616054
 MonoBehaviour:
@@ -479,6 +480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 2139311550}
   amountText: {fileID: 1751555182}
+  slotIndex: 0
 --- !u!114 &24616055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -552,10 +554,10 @@ RectTransform:
   - {fileID: 1647042085}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &41757220
 MonoBehaviour:
@@ -571,6 +573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 960728904}
   amountText: {fileID: 1647042086}
+  slotIndex: 0
 --- !u!114 &41757221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -783,10 +786,10 @@ RectTransform:
   - {fileID: 345396330}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &72925102
 MonoBehaviour:
@@ -802,6 +805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1283895182}
   amountText: {fileID: 345396331}
+  slotIndex: 0
 --- !u!114 &72925103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -875,10 +879,10 @@ RectTransform:
   - {fileID: 736971525}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &75456241
 MonoBehaviour:
@@ -894,6 +898,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 669656793}
   amountText: {fileID: 736971526}
+  slotIndex: 0
 --- !u!114 &75456242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1106,10 +1111,10 @@ RectTransform:
   - {fileID: 1772440481}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &87685111
 MonoBehaviour:
@@ -1125,6 +1130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1853861889}
   amountText: {fileID: 1772440482}
+  slotIndex: 0
 --- !u!114 &87685112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,10 +1204,10 @@ RectTransform:
   - {fileID: 1958270891}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &88672604
 MonoBehaviour:
@@ -1217,6 +1223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1859445490}
   amountText: {fileID: 1958270892}
+  slotIndex: 0
 --- !u!114 &88672605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1504,10 +1511,10 @@ RectTransform:
   - {fileID: 452104197}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &93763232
 MonoBehaviour:
@@ -1523,6 +1530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 290467801}
   amountText: {fileID: 452104198}
+  slotIndex: 0
 --- !u!114 &93763233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1596,10 +1604,10 @@ RectTransform:
   - {fileID: 846182789}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95501710
 MonoBehaviour:
@@ -1615,6 +1623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1931178408}
   amountText: {fileID: 846182790}
+  slotIndex: 0
 --- !u!114 &95501711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1688,10 +1697,10 @@ RectTransform:
   - {fileID: 416923746}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &102480476
 MonoBehaviour:
@@ -1707,6 +1716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 379916752}
   amountText: {fileID: 416923747}
+  slotIndex: 0
 --- !u!114 &102480477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1780,10 +1790,10 @@ RectTransform:
   - {fileID: 1079474091}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113635150
 MonoBehaviour:
@@ -1799,6 +1809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 450692299}
   amountText: {fileID: 1079474092}
+  slotIndex: 0
 --- !u!114 &113635151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2148,10 +2159,10 @@ RectTransform:
   - {fileID: 796046949}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &141489827
 MonoBehaviour:
@@ -2167,6 +2178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1970539030}
   amountText: {fileID: 796046950}
+  slotIndex: 0
 --- !u!114 &141489828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2529,10 +2541,10 @@ RectTransform:
   - {fileID: 1119405146}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &155246204
 MonoBehaviour:
@@ -2548,6 +2560,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 144452125}
   amountText: {fileID: 1119405147}
+  slotIndex: 0
 --- !u!114 &155246205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2621,10 +2634,10 @@ RectTransform:
   - {fileID: 1438176335}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &178838700
 MonoBehaviour:
@@ -2640,6 +2653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1932257166}
   amountText: {fileID: 1438176336}
+  slotIndex: 0
 --- !u!114 &178838701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2713,10 +2727,10 @@ RectTransform:
   - {fileID: 1394834700}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184622304
 MonoBehaviour:
@@ -2732,6 +2746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1813131716}
   amountText: {fileID: 1394834701}
+  slotIndex: 0
 --- !u!114 &184622305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3019,10 +3034,10 @@ RectTransform:
   - {fileID: 1765117458}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &213545783
 MonoBehaviour:
@@ -3038,6 +3053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 2097194697}
   amountText: {fileID: 1765117459}
+  slotIndex: 0
 --- !u!114 &213545784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3174,6 +3190,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f700541022944b742a03d386045a055e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  inventorySize: 80
   inventory: []
 --- !u!1 &234841582
 GameObject:
@@ -3210,10 +3227,10 @@ RectTransform:
   - {fileID: 1574406619}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &234841584
 MonoBehaviour:
@@ -3229,6 +3246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 510402957}
   amountText: {fileID: 1574406620}
+  slotIndex: 0
 --- !u!114 &234841585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3302,10 +3320,10 @@ RectTransform:
   - {fileID: 800857318}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &246421401
 MonoBehaviour:
@@ -3321,6 +3339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1681059368}
   amountText: {fileID: 800857319}
+  slotIndex: 0
 --- !u!114 &246421402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4250,10 +4269,10 @@ RectTransform:
   - {fileID: 1844383396}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &336704591
 MonoBehaviour:
@@ -4269,6 +4288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1517118904}
   amountText: {fileID: 1844383397}
+  slotIndex: 0
 --- !u!114 &336704592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4342,10 +4362,10 @@ RectTransform:
   - {fileID: 766220218}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343516837
 MonoBehaviour:
@@ -4361,6 +4381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1903360926}
   amountText: {fileID: 766220219}
+  slotIndex: 0
 --- !u!114 &343516838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5365,10 +5386,10 @@ RectTransform:
   - {fileID: 1470510071}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &411635442
 MonoBehaviour:
@@ -5384,6 +5405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1594764762}
   amountText: {fileID: 1470510072}
+  slotIndex: 0
 --- !u!114 &411635443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5735,10 +5757,10 @@ RectTransform:
   - {fileID: 1195934048}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &437059081
 MonoBehaviour:
@@ -5754,6 +5776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 145045676}
   amountText: {fileID: 1195934049}
+  slotIndex: 0
 --- !u!114 &437059082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6091,10 +6114,10 @@ RectTransform:
   - {fileID: 302584358}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &462514017
 MonoBehaviour:
@@ -6110,6 +6133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1771625963}
   amountText: {fileID: 302584359}
+  slotIndex: 0
 --- !u!114 &462514018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6322,10 +6346,10 @@ RectTransform:
   - {fileID: 2076677108}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &479553510
 MonoBehaviour:
@@ -6341,6 +6365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 883668632}
   amountText: {fileID: 2076677109}
+  slotIndex: 0
 --- !u!114 &479553511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6414,10 +6439,10 @@ RectTransform:
   - {fileID: 380882464}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &481533602
 MonoBehaviour:
@@ -6433,6 +6458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1676518829}
   amountText: {fileID: 380882465}
+  slotIndex: 0
 --- !u!114 &481533603
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6506,10 +6532,10 @@ RectTransform:
   - {fileID: 1273145919}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482008970
 MonoBehaviour:
@@ -6525,6 +6551,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 298498923}
   amountText: {fileID: 1273145920}
+  slotIndex: 0
 --- !u!114 &482008971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6737,10 +6764,10 @@ RectTransform:
   - {fileID: 1912944346}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &487586012
 MonoBehaviour:
@@ -6756,6 +6783,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1216249709}
   amountText: {fileID: 1912944347}
+  slotIndex: 0
 --- !u!114 &487586013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6829,10 +6857,10 @@ RectTransform:
   - {fileID: 956656661}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &494626661
 MonoBehaviour:
@@ -6848,6 +6876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 738912131}
   amountText: {fileID: 956656662}
+  slotIndex: 0
 --- !u!114 &494626662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6921,10 +6950,10 @@ RectTransform:
   - {fileID: 1070646247}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500232300
 MonoBehaviour:
@@ -6940,6 +6969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1016201020}
   amountText: {fileID: 1070646248}
+  slotIndex: 0
 --- !u!114 &500232301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7302,10 +7332,10 @@ RectTransform:
   - {fileID: 406994163}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &516421014
 MonoBehaviour:
@@ -7321,6 +7351,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 277465813}
   amountText: {fileID: 406994164}
+  slotIndex: 0
 --- !u!114 &516421015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7394,10 +7425,10 @@ RectTransform:
   - {fileID: 317421342}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &533128496
 MonoBehaviour:
@@ -7413,6 +7444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1152867582}
   amountText: {fileID: 317421343}
+  slotIndex: 0
 --- !u!114 &533128497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7561,10 +7593,10 @@ RectTransform:
   - {fileID: 2120160679}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &553045596
 MonoBehaviour:
@@ -7580,6 +7612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1658850066}
   amountText: {fileID: 2120160680}
+  slotIndex: 0
 --- !u!114 &553045597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7653,10 +7686,10 @@ RectTransform:
   - {fileID: 2006052825}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587257648
 MonoBehaviour:
@@ -7672,6 +7705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 757269133}
   amountText: {fileID: 2006052826}
+  slotIndex: 0
 --- !u!114 &587257649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8462,10 +8496,10 @@ RectTransform:
   - {fileID: 476054012}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &706752573
 MonoBehaviour:
@@ -8481,6 +8515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1787753153}
   amountText: {fileID: 476054013}
+  slotIndex: 0
 --- !u!114 &706752574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8554,10 +8589,10 @@ RectTransform:
   - {fileID: 599446065}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &710263810
 MonoBehaviour:
@@ -8573,6 +8608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1796376178}
   amountText: {fileID: 599446066}
+  slotIndex: 0
 --- !u!114 &710263811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8860,10 +8896,10 @@ RectTransform:
   - {fileID: 1743395820}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &740303674
 MonoBehaviour:
@@ -8879,6 +8915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1324357728}
   amountText: {fileID: 1743395821}
+  slotIndex: 0
 --- !u!114 &740303675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9027,10 +9064,10 @@ RectTransform:
   - {fileID: 1088360721}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749440793
 MonoBehaviour:
@@ -9046,6 +9083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 2015359285}
   amountText: {fileID: 1088360722}
+  slotIndex: 0
 --- !u!114 &749440794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13927,10 +13965,10 @@ RectTransform:
   - {fileID: 1747196056}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787633410
 MonoBehaviour:
@@ -13946,6 +13984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 92832205}
   amountText: {fileID: 1747196057}
+  slotIndex: 0
 --- !u!114 &787633411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14436,10 +14475,10 @@ RectTransform:
   - {fileID: 252357459}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &821331350
 MonoBehaviour:
@@ -14455,6 +14494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 937786420}
   amountText: {fileID: 252357460}
+  slotIndex: 0
 --- !u!114 &821331351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14528,10 +14568,10 @@ RectTransform:
   - {fileID: 1196524167}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &824816524
 MonoBehaviour:
@@ -14547,6 +14587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1677843772}
   amountText: {fileID: 1196524168}
+  slotIndex: 0
 --- !u!114 &824816525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14759,10 +14800,10 @@ RectTransform:
   - {fileID: 486173456}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839057257
 MonoBehaviour:
@@ -14778,6 +14819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 2015188167}
   amountText: {fileID: 486173457}
+  slotIndex: 0
 --- !u!114 &839057258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15129,10 +15171,10 @@ RectTransform:
   - {fileID: 84002057}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850783467
 MonoBehaviour:
@@ -15148,6 +15190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1276844332}
   amountText: {fileID: 84002058}
+  slotIndex: 0
 --- !u!114 &850783468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15221,10 +15264,10 @@ RectTransform:
   - {fileID: 92415093}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &857428186
 MonoBehaviour:
@@ -15240,6 +15283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 2097256789}
   amountText: {fileID: 92415094}
+  slotIndex: 0
 --- !u!114 &857428187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15313,10 +15357,10 @@ RectTransform:
   - {fileID: 1039065118}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860725840
 MonoBehaviour:
@@ -15332,6 +15376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1578887372}
   amountText: {fileID: 1039065119}
+  slotIndex: 0
 --- !u!114 &860725841
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15545,10 +15590,10 @@ RectTransform:
   - {fileID: 154197067}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &874322707
 MonoBehaviour:
@@ -15564,6 +15609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 987914377}
   amountText: {fileID: 154197068}
+  slotIndex: 0
 --- !u!114 &874322708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15712,10 +15758,10 @@ RectTransform:
   - {fileID: 796560797}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886759801
 MonoBehaviour:
@@ -15731,6 +15777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 921358515}
   amountText: {fileID: 796560798}
+  slotIndex: 0
 --- !u!114 &886759802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17330,10 +17377,10 @@ RectTransform:
   - {fileID: 895263493}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978583799
 MonoBehaviour:
@@ -17349,6 +17396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 743498997}
   amountText: {fileID: 895263494}
+  slotIndex: 0
 --- !u!114 &978583800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17838,10 +17886,10 @@ RectTransform:
   - {fileID: 1714592376}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1026936562
 MonoBehaviour:
@@ -17857,6 +17905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 615166074}
   amountText: {fileID: 1714592377}
+  slotIndex: 0
 --- !u!114 &1026936563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18144,10 +18193,10 @@ RectTransform:
   - {fileID: 693111909}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1048571451
 MonoBehaviour:
@@ -18163,6 +18212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1488408746}
   amountText: {fileID: 693111910}
+  slotIndex: 0
 --- !u!114 &1048571452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18375,10 +18425,10 @@ RectTransform:
   - {fileID: 272921768}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051534910
 MonoBehaviour:
@@ -18394,6 +18444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1473979737}
   amountText: {fileID: 272921769}
+  slotIndex: 0
 --- !u!114 &1051534911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18923,10 +18974,10 @@ RectTransform:
   - {fileID: 125599739}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1086766913
 MonoBehaviour:
@@ -18942,6 +18993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 299590082}
   amountText: {fileID: 125599740}
+  slotIndex: 0
 --- !u!114 &1086766914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23751,10 +23803,10 @@ RectTransform:
   - {fileID: 1666602857}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1170519692
 MonoBehaviour:
@@ -23770,6 +23822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1821050310}
   amountText: {fileID: 1666602858}
+  slotIndex: 0
 --- !u!114 &1170519693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23843,10 +23896,10 @@ RectTransform:
   - {fileID: 839337199}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1193086935
 MonoBehaviour:
@@ -23862,6 +23915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1757802675}
   amountText: {fileID: 839337200}
+  slotIndex: 0
 --- !u!114 &1193086936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24577,10 +24631,10 @@ RectTransform:
   - {fileID: 2112152258}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1216788510
 MonoBehaviour:
@@ -24596,6 +24650,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 895947605}
   amountText: {fileID: 2112152259}
+  slotIndex: 0
 --- !u!114 &1216788511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24669,10 +24724,10 @@ RectTransform:
   - {fileID: 511786611}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -1067.9}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236056986
 MonoBehaviour:
@@ -24688,6 +24743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 388834558}
   amountText: {fileID: 511786612}
+  slotIndex: 0
 --- !u!114 &1236056987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26978,10 +27034,10 @@ RectTransform:
   - {fileID: 11386254}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1303908267
 MonoBehaviour:
@@ -26997,6 +27053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 2025483633}
   amountText: {fileID: 11386255}
+  slotIndex: 0
 --- !u!114 &1303908268
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27145,10 +27202,10 @@ RectTransform:
   - {fileID: 1920553001}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -2764.4}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1323154421
 MonoBehaviour:
@@ -27164,6 +27221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1038950840}
   amountText: {fileID: 1920553002}
+  slotIndex: 0
 --- !u!114 &1323154422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27749,10 +27807,10 @@ RectTransform:
   - {fileID: 1390986663}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1402827185
 MonoBehaviour:
@@ -27768,6 +27826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1310423515}
   amountText: {fileID: 1390986664}
+  slotIndex: 0
 --- !u!114 &1402827186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28269,10 +28328,10 @@ RectTransform:
   - {fileID: 1699639275}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1476434966
 MonoBehaviour:
@@ -28288,6 +28347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 550383702}
   amountText: {fileID: 1699639276}
+  slotIndex: 0
 --- !u!114 &1476434967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28586,10 +28646,10 @@ RectTransform:
   - {fileID: 1194573308}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1498704055
 MonoBehaviour:
@@ -28605,6 +28665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 650868128}
   amountText: {fileID: 1194573309}
+  slotIndex: 0
 --- !u!114 &1498704056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31052,10 +31113,10 @@ RectTransform:
   - {fileID: 1051113556}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1760.6001, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1518881927
 MonoBehaviour:
@@ -31071,6 +31132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 953313286}
   amountText: {fileID: 1051113557}
+  slotIndex: 0
 --- !u!114 &1518881928
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31144,10 +31206,10 @@ RectTransform:
   - {fileID: 1093558841}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545135736
 MonoBehaviour:
@@ -31163,6 +31225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 6825818}
   amountText: {fileID: 1093558842}
+  slotIndex: 0
 --- !u!114 &1545135737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31218,7 +31281,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1546527218
 RectTransform:
   m_ObjectHideFlags: 0
@@ -31391,10 +31454,10 @@ RectTransform:
   - {fileID: 651211891}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570267754
 MonoBehaviour:
@@ -31410,6 +31473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1984194353}
   amountText: {fileID: 651211892}
+  slotIndex: 0
 --- !u!114 &1570267755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31772,10 +31836,10 @@ RectTransform:
   - {fileID: 915004994}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -1746.5}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1586531480
 MonoBehaviour:
@@ -31791,6 +31855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1610996283}
   amountText: {fileID: 915004995}
+  slotIndex: 0
 --- !u!114 &1586531481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33227,10 +33292,10 @@ RectTransform:
   - {fileID: 376523344}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701798957
 MonoBehaviour:
@@ -33246,6 +33311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 612160797}
   amountText: {fileID: 376523345}
+  slotIndex: 0
 --- !u!114 &1701798958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57153,10 +57219,10 @@ RectTransform:
   - {fileID: 947864742}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 335.1, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1720998724
 MonoBehaviour:
@@ -57172,6 +57238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 371324131}
   amountText: {fileID: 947864743}
+  slotIndex: 0
 --- !u!114 &1720998725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58461,10 +58528,10 @@ RectTransform:
   - {fileID: 1615972626}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1794942273
 MonoBehaviour:
@@ -58480,6 +58547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1495791888}
   amountText: {fileID: 1615972627}
+  slotIndex: 0
 --- !u!114 &1794942274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59056,10 +59124,10 @@ RectTransform:
   - {fileID: 1285217681}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816937156
 MonoBehaviour:
@@ -59075,6 +59143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1207271538}
   amountText: {fileID: 1285217682}
+  slotIndex: 0
 --- !u!114 &1816937157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59223,10 +59292,10 @@ RectTransform:
   - {fileID: 72424286}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -728.6}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1844144551
 MonoBehaviour:
@@ -59242,6 +59311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 371634705}
   amountText: {fileID: 72424287}
+  slotIndex: 0
 --- !u!114 &1844144552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59604,10 +59674,10 @@ RectTransform:
   - {fileID: 194842980}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 905.30005, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1881158812
 MonoBehaviour:
@@ -59623,6 +59693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 967479871}
   amountText: {fileID: 194842981}
+  slotIndex: 0
 --- !u!114 &1881158813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63865,10 +63936,10 @@ RectTransform:
   - {fileID: 1805772927}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1922654984
 MonoBehaviour:
@@ -63922,6 +63993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1408395900}
   amountText: {fileID: 1805772928}
+  slotIndex: 0
 --- !u!1 &1931178406
 GameObject:
   m_ObjectHideFlags: 0
@@ -64107,10 +64179,10 @@ RectTransform:
   - {fileID: 1263314829}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954450190
 MonoBehaviour:
@@ -64126,6 +64198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1480921105}
   amountText: {fileID: 1263314830}
+  slotIndex: 0
 --- !u!114 &1954450191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64488,10 +64561,10 @@ RectTransform:
   - {fileID: 1816560071}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998901925
 MonoBehaviour:
@@ -64507,6 +64580,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 397146049}
   amountText: {fileID: 1816560072}
+  slotIndex: 0
 --- !u!114 &1998901926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65083,10 +65157,10 @@ RectTransform:
   - {fileID: 1882545067}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -1407.2}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2026600613
 MonoBehaviour:
@@ -65102,6 +65176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 516038142}
   amountText: {fileID: 1882545068}
+  slotIndex: 0
 --- !u!114 &2026600614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65175,10 +65250,10 @@ RectTransform:
   - {fileID: 2023174672}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 620.2, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2038850736
 MonoBehaviour:
@@ -65194,6 +65269,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1816534352}
   amountText: {fileID: 2023174673}
+  slotIndex: 0
 --- !u!114 &2038850737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65267,10 +65343,10 @@ RectTransform:
   - {fileID: 1624693664}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2041343538
 MonoBehaviour:
@@ -65286,6 +65362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1555096417}
   amountText: {fileID: 1624693665}
+  slotIndex: 0
 --- !u!114 &2041343539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65498,10 +65575,10 @@ RectTransform:
   - {fileID: 2042612832}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -2085.8}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2054445138
 MonoBehaviour:
@@ -65517,6 +65594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 187437119}
   amountText: {fileID: 2042612833}
+  slotIndex: 0
 --- !u!114 &2054445139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65590,10 +65668,10 @@ RectTransform:
   - {fileID: 1627505244}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1190.4, y: -3103.7}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2067382906
 MonoBehaviour:
@@ -65609,6 +65687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1072445217}
   amountText: {fileID: 1627505245}
+  slotIndex: 0
 --- !u!114 &2067382907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65821,10 +65900,10 @@ RectTransform:
   - {fileID: 425588913}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1475.5, y: -389.3}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2096142347
 MonoBehaviour:
@@ -65840,6 +65919,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1214321126}
   amountText: {fileID: 425588914}
+  slotIndex: 0
 --- !u!114 &2096142348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66449,10 +66529,10 @@ RectTransform:
   - {fileID: 927320468}
   m_Father: {fileID: 867075444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 2045.7001, y: -2425.1}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144662042
 MonoBehaviour:
@@ -66468,6 +66548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SlotUI
   itemIcon: {fileID: 1360684304}
   amountText: {fileID: 927320469}
+  slotIndex: 0
 --- !u!114 &2144662043
 MonoBehaviour:
   m_ObjectHideFlags: 0

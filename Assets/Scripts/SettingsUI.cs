@@ -28,6 +28,11 @@ public class IventoryUI : MonoBehaviour
             inventoryPanel.GetComponentsInChildren<SlotUI>(true)
         );
 
+        for (int i = 0; i < slots.Count; i++)
+        {
+            slots[i].slotIndex = i;
+        }
+
         Debug.Log("Found " + slots.Count + " inventory slots!");
     }
 
