@@ -27,6 +27,7 @@ public class InventoryManager : MonoBehaviour
 
     public void AddItem(ItemData item, int amount)
     {
+        // First try to add to an existing stack
         foreach (InventorySlot slot in inventory)
         {
             if (slot.item == item)
@@ -34,10 +35,13 @@ public class InventoryManager : MonoBehaviour
                 slot.amount += amount;
 
                 Debug.Log(item.itemName + " x" + slot.amount);
+
+                RefreshUI();
                 return;
             }
         }
 
+        // Otherwise use the first empty slot
         foreach (InventorySlot slot in inventory)
         {
             if (slot.item == null)
@@ -46,13 +50,13 @@ public class InventoryManager : MonoBehaviour
                 slot.amount = amount;
 
                 Debug.Log(item.itemName + " added!");
+
+                RefreshUI();
                 return;
             }
         }
 
         Debug.Log("Inventory full!");
-
-        Debug.Log(item.itemName + " x" + amount);
     }
 
     
@@ -60,11 +64,34 @@ public class InventoryManager : MonoBehaviour
     {
         
         
+        if (firstIndex < 0 || firstIndex >= inventory.Count)
+            return;
+
+        if (secondIndex < 0 || secondIndex >= inventory.Count)
+            return;
+
         InventorySlot temp = inventory[firstIndex];
 
         inventory[firstIndex] = inventory[secondIndex];
         inventory[secondIndex] = temp;
 
-        FindFirstObjectByType<IventoryUI>().RefreshInventoryUI();
+        RefreshUI();
+    }
+
+    private void RefreshUI()
+    {
+        IventoryUI inventoryUI = FindFirstObjectByType<IventoryUI>();
+
+        if (inventoryUI != null)
+        {
+            inventoryUI.RefreshInventoryUI();
+        }
+
+        ToolbarUI toolbarUI = FindFirstObjectByType<ToolbarUI>();
+
+        if (toolbarUI != null)
+        {
+            toolbarUI.RefreshToolBar();
+        }
     }
 }

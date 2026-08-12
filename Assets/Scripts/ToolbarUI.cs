@@ -7,6 +7,27 @@ public class ToolbarUI : MonoBehaviour
 
     private SlotUI selectedSlot;
 
+    
+    void Start()
+    {
+        for (int i = 0; i < toolbarSlots.Length; i++)
+        {
+            toolbarSlots[i].slotIndex = i;
+        }
+
+        RefreshToolBar();
+    }
+    public void RefreshToolBar()
+    {
+        for (int i = 0; i < toolbarSlots.Length; i++)
+        {
+            InventorySlot inventorySlot =
+                InventoryManager.Instance.inventory[i];
+
+            toolbarSlots[i].SetSlot(inventorySlot);
+        }
+    }
+
     public void SelectSlot(int index)
     {
         if (index < 0 || index >= toolbarSlots.Length)

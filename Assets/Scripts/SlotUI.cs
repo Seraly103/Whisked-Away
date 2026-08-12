@@ -23,7 +23,7 @@ public class SlotUI : MonoBehaviour,
     {
         canvas = GetComponentInParent<Canvas>();
 
-        amountText.color = Color.white;
+        amountText.color = Color.black;
     }
 
 
@@ -34,7 +34,9 @@ public class SlotUI : MonoBehaviour,
             itemIcon.sprite = slot.item.icon;
             itemIcon.enabled = true;
 
-            amountText.text = slot.amount.ToString();
+             amountText.text = slot.amount > 1
+            ? slot.amount.ToString()
+            : "";
         }
         else
         {
@@ -50,6 +52,7 @@ public class SlotUI : MonoBehaviour,
         amountText.text = "";
     }
 
+    
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (slotIndex >= InventoryManager.Instance.inventory.Count)
