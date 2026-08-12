@@ -7,7 +7,8 @@ public class SlotUI : MonoBehaviour,
     IBeginDragHandler,
     IDragHandler,
     IEndDragHandler,
-    IDropHandler
+    IDropHandler,
+    IPointerClickHandler
 {
     [SerializeField] private Image itemIcon;
     [SerializeField] private TMP_Text amountText;
@@ -19,6 +20,8 @@ public class SlotUI : MonoBehaviour,
     [SerializeField] private GameObject highlightOne;
     [SerializeField] private GameObject highlightTwo;
 
+    [SerializeField] private RectTransform inventoryPanel;
+
     void Awake()
     {
         canvas = GetComponentInParent<Canvas>();
@@ -26,6 +29,10 @@ public class SlotUI : MonoBehaviour,
         amountText.color = Color.black;
     }
 
+    public void SetInventoryPanel(RectTransform panel)
+    {
+        inventoryPanel = panel;
+    }
 
     public void SetSlot(InventorySlot slot)
     {
@@ -52,10 +59,24 @@ public class SlotUI : MonoBehaviour,
         amountText.text = "";
     }
 
+    public void OnPointerClick(PointerEventData eventData)
+    {
+        if (slotIndex >= InventoryManager.Instance.inventory.Count)
+            return;
+
+        if (InventoryManager.Instance.inventory[slotIndex].item == null)
+            return;
+
+        InventoryManager.Instance.SelectSlot(slotIndex);
+    }
+ 
     
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (slotIndex >= InventoryManager.Instance.inventory.Count)
+            return;
+
+        if (InventoryManager.Instance.inventory[slotIndex].item == null)
             return;
 
         originalParent = itemIcon.transform.parent;
@@ -74,10 +95,34 @@ public class SlotUI : MonoBehaviour,
 
     public void OnEndDrag(PointerEventData eventData)
     {
+         // Put icon back where it belongs
         itemIcon.transform.SetParent(originalParent);
         itemIcon.transform.localPosition = Vector3.zero;
 
         itemIcon.raycastTarget = true;
+
+        if (slotIndex >= InventoryManager.Instance.inventory.Count)
+            return;
+
+        if (InventoryManager.Instance.inventory[slotIndex].item == null)
+            return;
+
+        // Only check for dropping outside if this SlotUI
+        // actually belongs to the inventory
+        if (inventoryPanel != null)
+        {
+            bool insideInventory =
+                RectTransformUtility.RectangleContainsScreenPoint(
+                    inventoryPanel,
+                    eventData.position,
+                    eventData.pressEventCamera
+                );
+
+            if (!insideInventory)
+            {
+                InventoryManager.Instance.DropItem(slotIndex);
+            }
+        }
     }
 
     public void OnDrop(PointerEventData eventData)
@@ -96,7 +141,12 @@ public class SlotUI : MonoBehaviour,
 
     public void SetSelected(bool selected)
     {
-        highlightOne.SetActive(selected);
-        highlightTwo.SetActive(selected);
+        if (highlightOne != null)
+            highlightOne.SetActive(selected);
+
+        if (highlightTwo != null)
+            highlightTwo.SetActive(selected);
     }
+
+   
 }

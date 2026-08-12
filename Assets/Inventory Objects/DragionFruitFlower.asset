@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Dragon Fruit Flower
   icon: {fileID: 2125108888, guid: b228e069be44417459c7647385712aa0, type: 3}
   maxStack: 99
+  dropPrefab: {fileID: 4683707928180650660, guid: d56f5294564c9aa47ac221cd4c7b6582, type: 3}

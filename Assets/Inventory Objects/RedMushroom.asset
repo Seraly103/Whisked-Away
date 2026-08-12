@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Red Mushroom
   icon: {fileID: 4639506938558671751, guid: ed1492394fd47bf49b27ba4e569806b7, type: 3}
   maxStack: 99
+  dropPrefab: {fileID: 3289769119068178166, guid: 5e86cc1e7a0c73a4bbd1a0c7e5e775b9, type: 3}

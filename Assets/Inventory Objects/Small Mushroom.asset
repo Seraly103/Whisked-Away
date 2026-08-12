@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Small Mushroom
   icon: {fileID: 8121348490694049500, guid: a7c375ae5db4d5c458fe03e7140c2bca, type: 3}
   maxStack: 99
+  dropPrefab: {fileID: 2660288051677032474, guid: 7819a54c2ee84254595eb66e5937c6ee, type: 3}

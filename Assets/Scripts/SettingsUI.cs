@@ -13,6 +13,8 @@ public class IventoryUI : MonoBehaviour
         SetUp();
     }
 
+    
+
     public void ToggleInventory(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -24,19 +26,23 @@ public class IventoryUI : MonoBehaviour
     void SetUp()
     {
         slots.AddRange(
-            inventoryPanel.GetComponentsInChildren<SlotUI>(true)
+        inventoryPanel.GetComponentsInChildren<SlotUI>(true)
         );
+
+        RectTransform panelRect =
+            inventoryPanel.GetComponent<RectTransform>();
 
         for (int i = 0; i < slots.Count; i++)
         {
             slots[i].slotIndex = i;
+            slots[i].SetInventoryPanel(panelRect);
         }
 
         Debug.Log("Found " + slots.Count + " inventory slots!");
     }
 
-
-   
+    
+            
 
 
     public void ToggleInventoryUI()
@@ -71,4 +77,6 @@ public class IventoryUI : MonoBehaviour
             }
         }
     }
+
+    
 }

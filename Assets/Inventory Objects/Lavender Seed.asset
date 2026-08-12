@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Lavender Seeds
   icon: {fileID: 876498603651270225, guid: 2bd6ef20388747b4f8ced8490d436456, type: 3}
   maxStack: 99
+  dropPrefab: {fileID: 2672747602263595523, guid: 643a19347c710434f93f325adb317e3c, type: 3}

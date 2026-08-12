@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Green Thing
   icon: {fileID: 7365160602842359770, guid: 8813bce6665b74c4fb922286882d4efc, type: 3}
   maxStack: 99
+  dropPrefab: {fileID: 2070690846587964353, guid: 62420155b8390774aba0b9b21fc91b84, type: 3}

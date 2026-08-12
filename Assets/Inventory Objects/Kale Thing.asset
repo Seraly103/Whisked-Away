@@ -15,3 +15,4 @@ MonoBehaviour:
   itemName: Kale Leafs
   icon: {fileID: 1962259597, guid: 7a7ce5ef23280e7428c8d0538a7f7a6b, type: 3}
   maxStack: 99
+  dropPrefab: {fileID: 9059578864058621443, guid: 452e95f4c56143d45b0a2ad8c1d76d31, type: 3}
