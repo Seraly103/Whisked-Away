@@ -8,6 +8,8 @@ public class DayManager : MonoBehaviour
     public float DayStartHour => dayStartHour;
     public float DayEndHour => dayEndHour;
 
+    [SerializeField] private EndDayUI endDayUI;
+
     [Header("Game Progress")]
     [SerializeField] private int currentDay = 1;
     [SerializeField] private int maxDays = 14;
@@ -63,11 +65,29 @@ public class DayManager : MonoBehaviour
     private void EndFarmTime()
     {
         farmTimeOver = true;
-        currentHour = farmEndHour;
+        currentHour = dayEndHour;
 
-        Debug.Log("Farm time is over.");
+        Debug.Log("Day Finished");
 
-        EndDay();
+        endDayUI.ShowEndDayScreen();
+    }
+
+    public void StartNextDay()
+    {
+        if (currentDay >= maxDays)
+        {
+            EndGame();
+            return;
+        }
+
+        currentDay++;
+
+        currentHour = dayStartHour;
+        farmTimeOver = false;
+
+        OnDayChanged?.Invoke(currentDay);
+
+        Debug.Log("Starting Day " + currentDay);
     }
 
     public void StartFarmTime()
