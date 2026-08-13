@@ -65,11 +65,20 @@ public class PlayerController : MonoBehaviour
 
         if (selectedItem.itemName == "Hoe")
         {
-            if (tileManager.IsTileInteractable(transform.position))
+            if (tileManager.IsTileInteractable(transform.position) &&
+                !tileManager.IsWateredTile(transform.position))
             {
                 tileManager.SetTilledTile(transform.position);
 
                 Debug.Log("Used hoe!");
+            }
+        }
+
+         else if (selectedItem.itemName == "Watering Can")
+        {
+            if (tileManager.IsTilledTile(transform.position))
+            {
+                tileManager.SetWaterTile(transform.position);
             }
         }
     }

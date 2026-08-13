@@ -33,10 +33,16 @@ public class TileManager : MonoBehaviour
        Vector3Int cellPosition =
         interactableTilemap.WorldToCell(worldPosition);
 
-        if (interactableTilemap.HasTile(cellPosition))
+        if (!interactableTilemap.HasTile(cellPosition))
+            return;
+
+        if (interactableTilemap.GetTile(cellPosition) == waterTile)
         {
-            interactableTilemap.SetTile(cellPosition, hoeTile);
+            Debug.Log("This tile is already watered and cannot be hoed again.");
+            return;
         }
+
+        interactableTilemap.SetTile(cellPosition, hoeTile);
     }
 
    public void SetWaterTile (Vector3 worldPosition)
@@ -49,6 +55,22 @@ public class TileManager : MonoBehaviour
             interactableTilemap.SetTile(cellPosition, waterTile);
         }
    }
+
+   public bool IsTilledTile(Vector3 worldPosition)
+    {
+        Vector3Int cellPosition =
+            interactableTilemap.WorldToCell(worldPosition);
+
+        return interactableTilemap.GetTile(cellPosition) == hoeTile;
+    }
+
+    public bool IsWateredTile(Vector3 worldPosition)
+    {
+        Vector3Int cellPosition =
+            interactableTilemap.WorldToCell(worldPosition);
+
+        return interactableTilemap.GetTile(cellPosition) == waterTile;
+    }
 
    
     
