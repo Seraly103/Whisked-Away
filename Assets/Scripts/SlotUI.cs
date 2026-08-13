@@ -16,6 +16,7 @@ public class SlotUI : MonoBehaviour,
     public int slotIndex;
     private Canvas canvas;
     private Transform originalParent;
+    private ToolbarUI toolbarReference;
 
     [SerializeField] private GameObject highlightOne;
     [SerializeField] private GameObject highlightTwo;
@@ -32,6 +33,11 @@ public class SlotUI : MonoBehaviour,
     public void SetInventoryPanel(RectTransform panel)
     {
         inventoryPanel = panel;
+    }
+
+    public void SetToolbarReference(ToolbarUI toolbar)
+    {
+        toolbarReference = toolbar;
     }
 
     public void SetSlot(InventorySlot slot)
@@ -61,6 +67,15 @@ public class SlotUI : MonoBehaviour,
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        if (toolbarReference != null)
+        {
+            toolbarReference.SelectSlot(slotIndex);
+            return;
+        }
+
+        if (inventoryPanel == null)
+            return;
+
         if (slotIndex >= InventoryManager.Instance.inventory.Count)
             return;
 

@@ -13,6 +13,7 @@ public class ToolbarUI : MonoBehaviour
         for (int i = 0; i < toolbarSlots.Length; i++)
         {
             toolbarSlots[i].slotIndex = i;
+            toolbarSlots[i].SetToolbarReference(this);
         }
 
         RefreshToolBar();
@@ -28,6 +29,13 @@ public class ToolbarUI : MonoBehaviour
         }
     }
 
+    public int GetSelectedSlotIndex()
+    {
+        if (selectedSlot == null)
+            return -1;
+
+        return selectedSlot.slotIndex;
+    }
     public void SelectSlot(int index)
     {
         if (index < 0 || index >= toolbarSlots.Length)

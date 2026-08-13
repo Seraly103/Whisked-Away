@@ -7,9 +7,9 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] private int inventorySize = 80;
 
     public List<InventorySlot> inventory = new List<InventorySlot>();
-
     private int selectedSlotIndex = -1;
 
+   
     void Awake()
     {
         if (Instance == null)
@@ -33,19 +33,34 @@ public class InventoryManager : MonoBehaviour
         if (Keyboard.current != null &&
         Keyboard.current.backspaceKey.wasPressedThisFrame)
         {
-            if (selectedSlotIndex != -1)
+            IventoryUI inventoryUI = FindAnyObjectByType<IventoryUI>();
+
+            // If inventory is open and an inventory slot was clicked,
+            // drop that inventory slot.
+            if (inventoryUI != null &&
+                inventoryUI.IsInventoryOpen() &&
+                selectedSlotIndex != -1)
             {
                 DropItem(selectedSlotIndex);
+                return;
+            }
+
+            // Otherwise drop whatever toolbar slot is currently selected.
+            ToolbarUI toolbarUI = FindAnyObjectByType<ToolbarUI>();
+
+            if (toolbarUI != null)
+            {
+                int toolbarIndex = toolbarUI.GetSelectedSlotIndex();
+
+                if (toolbarIndex != -1)
+                {
+                    DropItem(toolbarIndex);
+                }
             }
         }
     }
 
-    public void SelectSlot(int index)
-    {
-        selectedSlotIndex = index;
-
-        Debug.Log("Selected inventory slot: " + index);
-    }
+   
     public void AddItem(ItemData item, int amount)
     {
         // First try to add to an existing stack
@@ -80,7 +95,12 @@ public class InventoryManager : MonoBehaviour
         Debug.Log("Inventory full!");
     }
 
-    
+    public void SelectSlot(int index)
+    {
+        selectedSlotIndex = index;
+
+        Debug.Log("Selected inventory slot: " + index);
+    }
     public void SwapItems(int firstIndex, int secondIndex)
     {
         
@@ -143,19 +163,21 @@ public class InventoryManager : MonoBehaviour
         slot.amount -= amount;
 
         slot.amount -= amount;
-
         if (slot.amount <= 0)
         {
             slot.item = null;
             slot.amount = 0;
 
-            if (selectedSlotIndex == slotIndex)
-            {
-                selectedSlotIndex = -1;
-            }
+            
         }
 
         FindAnyObjectByType<IventoryUI>()?.RefreshInventoryUI();
         FindAnyObjectByType<ToolbarUI>()?.RefreshToolBar();
     }
+
+    public void ClearSelectedInventorySlot()
+    {
+        selectedSlotIndex = -1;
+    }
+
 }

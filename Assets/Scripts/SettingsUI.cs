@@ -13,13 +13,23 @@ public class IventoryUI : MonoBehaviour
         SetUp();
     }
 
+    public bool IsInventoryOpen()
+    {
+        return inventoryPanel.activeSelf;
+    }
     
 
     public void ToggleInventory(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (!inventoryPanel.activeSelf)
         {
-            ToggleInventoryUI();
+            inventoryPanel.SetActive(true);
+            RefreshInventoryUI();
+        }
+        else
+        {
+            inventoryPanel.SetActive(false);
+            InventoryManager.Instance.ClearSelectedInventorySlot();
         }
     }
 
