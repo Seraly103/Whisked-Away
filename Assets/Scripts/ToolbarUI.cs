@@ -117,4 +117,19 @@ public class ToolbarUI : MonoBehaviour
         if (context.performed)
             SelectSlot(8);
     }
+
+    public ItemData GetSelectedItem()
+    {
+        if (selectedSlot == null)
+            return null;
+
+        int index = selectedSlot.slotIndex;
+
+        if (index < 0 || index >= InventoryManager.Instance.inventory.Count)
+            return null;
+
+        return InventoryManager.Instance.inventory[index].item;
+    }
+
+    
 }

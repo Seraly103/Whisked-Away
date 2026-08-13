@@ -30,14 +30,26 @@ public class TileManager : MonoBehaviour
 
    public void SetTilledTile (Vector3 worldPosition)
    {
-       Vector3Int cellPosition = interactableTilemap.WorldToCell(worldPosition);
-       interactableTilemap.SetTile(cellPosition, hoeTile);
-   }
+       Vector3Int cellPosition =
+        interactableTilemap.WorldToCell(worldPosition);
+
+        if (interactableTilemap.HasTile(cellPosition))
+        {
+            interactableTilemap.SetTile(cellPosition, hoeTile);
+        }
+    }
 
    public void SetWaterTile (Vector3 worldPosition)
    {
-       Vector3Int cellPosition = interactableTilemap.WorldToCell(worldPosition);
-       interactableTilemap.SetTile(cellPosition, waterTile);
+        Vector3Int cellPosition =
+        interactableTilemap.WorldToCell(worldPosition);
+
+        if (interactableTilemap.HasTile(cellPosition))
+        {
+            interactableTilemap.SetTile(cellPosition, waterTile);
+        }
    }
+
+   
     
 }

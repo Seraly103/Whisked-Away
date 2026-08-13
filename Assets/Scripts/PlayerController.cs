@@ -8,6 +8,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movementInput;
 
+    [SerializeField] private ToolbarUI toolbarUI;
+    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -16,6 +19,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         rb.linearVelocity = movementInput * speed;
+
+        if (Keyboard.current != null &&
+        Keyboard.current.spaceKey.wasPressedThisFrame)
+        {
+            UseSelectedTool();
+        }
         
     }
 
@@ -28,15 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.performed)
         {
-            if (tileManager.IsTileInteractable(transform.position))
-            {
-                Debug.Log("Im on a ho tile!");
-                tileManager.SetTilledTile(transform.position);
-            }
-            else
-            {
-                Debug.Log("Im not on a ho tile!");
-            }
+            
 
             Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 1f);
 
@@ -54,6 +55,26 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
+    private void UseSelectedTool()
+    {
+        ItemData selectedItem = toolbarUI.GetSelectedItem();
+
+        if (selectedItem == null)
+            return;
+
+        if (selectedItem.itemName == "Hoe")
+        {
+            if (tileManager.IsTileInteractable(transform.position))
+            {
+                tileManager.SetTilledTile(transform.position);
+
+                Debug.Log("Used hoe!");
+            }
+        }
+    }
+
+    
 }
 
 
